@@ -294,6 +294,7 @@ interface IResult {
   position: Int
   performance: Performance
   exception: String
+  automaticTiming: Boolean
   qualified: String
   comment: String
 }
